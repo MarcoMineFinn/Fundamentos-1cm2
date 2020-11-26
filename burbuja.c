@@ -16,8 +16,7 @@ int main(int argc, char** argv) {
 	int arreglo[can];
  
 	for (j = 0; j < can; j++)
-	{
-		fflush(stdin); 
+	{		
 		printf("Ingrese el numero a ordenar[%i]:\n", j);
 		scanf("%i" , &arreglo[j]);
 	}
